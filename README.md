@@ -48,4 +48,24 @@ forms.map((form) => {<br/>
         &nbsp;&nbsp;&nbsp;&nbsp;}<br/>
     };<br/><br/><br/>
     <b>Algumas opções não são utilizadas em selects / textareas</b>
-
+<hr>
+<h2>Atributos HTML para validação:</h2>
+<b>Os atributos devem ser inseridos nas tags. ex: <input type="senha" igual="confirma-senha" /></b><br/><br/>
+<b>type:</b><br/>
+<b>email</b> - validação de email válido<br/>
+<b>cpf</b> - validação/formatação de cpf válido<br/>
+<b>cnpj</b> - validação/formatação de cnpj válido<br/>
+<b>cep</b> - formatação de cep<br/>
+<b>data</b> - formatação de data<br/>
+<br><br><br>
+<b>min:</b> Valor mínimo a ser inserido (número)<br/>
+<br><br><br>
+<b>max:</b> Valor máximo a ser inserido (número)<br/>
+<br><br><br>
+<b>minlength:</b> Tamanho mínimo da string a ser inserida<br/>
+<br><br><br>
+<b>maxlength:</b> Tamanho máximo da string a ser inserida<br/>
+<br><br><br>
+<b>igual:</b> Deve ser passado um selector de outro campo que deve ter o valor igual ao deste. Ex: igual="#confirma-senha"<br/>
+<br><br><br>
+<b>required:</b> O campo não pode ser enviado em branco<br/>
